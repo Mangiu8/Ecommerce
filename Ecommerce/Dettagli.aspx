@@ -7,6 +7,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Dettagli Prodotto</title>
    <style>
+         body{
+    background-color: palegreen;
+}
        .container {
     margin-top: 20px;
 }
@@ -38,8 +41,6 @@
 #Button2, #Button3 {
     margin-top: 10px;
 }
-
-/* Aggiungi ulteriori regole CSS se necessario */
 
    </style>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />

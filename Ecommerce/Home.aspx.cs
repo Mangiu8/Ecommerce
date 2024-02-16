@@ -25,6 +25,7 @@ namespace Ecommerce
         {
             if (!IsPostBack)
             {
+                listaArticoli.Clear();
                 listaArticoli.Add(new Articolo { Id = 1, Nome = "Playstation 5", Descrizione = "Descrizione articolo 1", Prezzo = 499.99m, Immagine = "Content/img/play5.jpeg" });
                 listaArticoli.Add(new Articolo { Id = 2, Nome = "Xbox One", Descrizione = "Descrizione articolo 2", Prezzo = 299.99m, Immagine = "Content/img/xbox.jpeg" });
                 listaArticoli.Add(new Articolo { Id = 3, Nome = "Playstation 4", Descrizione = "Descrizione articolo 3", Prezzo = 150.75m, Immagine = "Content/img/play4.jpeg" });
